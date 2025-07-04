@@ -42,7 +42,7 @@
     "@types/glob": "8.1.0",
     "@types/node": "22.16.0",
     "@types/yazl": "2.4.6",
-    "aws-cdk-lib": "2.203.1",
+    "aws-cdk-lib": "2.204.0",
     "cdk": "2.1020.2",
     "commitlint": "19.8.1",
     "constructs": "10.4.2",
