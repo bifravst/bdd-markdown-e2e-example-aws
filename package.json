@@ -38,7 +38,7 @@
     "@commitlint/config-conventional": "19.8.1",
     "@sinclair/typebox": "0.34.38",
     "@swc/core": "1.13.0",
-    "@types/aws-lambda": "8.10.150",
+    "@types/aws-lambda": "8.10.151",
     "@types/glob": "8.1.0",
     "@types/node": "22.16.4",
     "@types/yazl": "2.4.6",
