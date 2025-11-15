@@ -40,7 +40,7 @@
     "@swc/core": "1.15.1",
     "@types/aws-lambda": "8.10.157",
     "@types/glob": "9.0.0",
-    "@types/node": "22.19.0",
+    "@types/node": "22.19.1",
     "@types/yazl": "3.3.0",
     "aws-cdk-lib": "2.223.0",
     "cdk": "2.1031.2",
