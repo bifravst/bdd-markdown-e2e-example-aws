@@ -46,7 +46,7 @@
     "cdk": "2.1108.0",
     "commitlint": "19.8.1",
     "constructs": "10.5.1",
-    "dependency-tree": "11.3.0",
+    "dependency-tree": "11.4.0",
     "glob": "11.1.0",
     "husky": "9.1.7",
     "node-fetch": "3.3.2",
