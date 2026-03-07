@@ -43,7 +43,7 @@
     "@types/node": "22.19.13",
     "@types/yazl": "3.3.0",
     "aws-cdk-lib": "2.241.0",
-    "cdk": "2.1108.0",
+    "cdk": "2.1109.0",
     "commitlint": "19.8.1",
     "constructs": "10.5.1",
     "dependency-tree": "11.4.0",
