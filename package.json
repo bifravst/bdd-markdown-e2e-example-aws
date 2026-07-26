@@ -36,7 +36,7 @@
     "@bifravst/eslint-config-typescript": "6.4.4",
     "@bifravst/prettier-config": "1.1.17",
     "@commitlint/config-conventional": "19.8.1",
-    "@sinclair/typebox": "0.34.49",
+    "@sinclair/typebox": "0.34.52",
     "@swc/core": "1.15.26",
     "@types/aws-lambda": "8.10.161",
     "@types/glob": "9.0.0",
