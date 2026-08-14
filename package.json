@@ -33,7 +33,7 @@
     "@aws-sdk/client-xray": "3.1095.0",
     "@bifravst/bdd-markdown": "8.2.80",
     "@bifravst/cloudformation-helpers": "9.1.1",
-    "@bifravst/eslint-config-typescript": "6.4.4",
+    "@bifravst/eslint-config-typescript": "7.0.34",
     "@bifravst/prettier-config": "1.1.17",
     "@commitlint/config-conventional": "19.8.1",
     "@sinclair/typebox": "0.34.52",
