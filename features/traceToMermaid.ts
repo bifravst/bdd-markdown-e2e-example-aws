@@ -34,7 +34,7 @@ for (const [f, featureResult] of suiteResult.results) {
 				.filter(
 					({ level, message }) =>
 						level === LogLevel.PROGRESS &&
-						message.find((m) => m.startsWith('x-amzn-trace-id')),
+						message.find((m) => m.startsWith('x-amzn-trace-id')) !== undefined,
 				)
 				.map(({ message }) => message)
 				.flat()

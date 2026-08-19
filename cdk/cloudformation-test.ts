@@ -1,14 +1,11 @@
-import path from 'path'
-import { packLambda } from './packLambda.js'
+import { packLambdaFromPath } from '@bifravst/aws-cdk-lambda-helpers'
 import { stackBaseName } from './stackBaseName.js'
 import { TestApp } from './TestApp.js'
 
-const baseDir = path.join(process.cwd(), 'lambda')
-
 new TestApp({
 	stackName: `${stackBaseName()}-test`,
-	lambdaSource: await packLambda({
+	lambdaSource: await packLambdaFromPath({
 		id: 'webhookReceiver',
-		baseDir,
+		sourceFilePath: `lambda/webhookReceiver.ts`,
 	}),
 }).synth()

@@ -1,3 +1,4 @@
+import { Tracer } from '@aws-lambda-powertools/tracer'
 import type { MessageAttributeValue } from '@aws-sdk/client-sqs'
 import { SendMessageCommand, SQSClient } from '@aws-sdk/client-sqs'
 import type {
@@ -5,7 +6,6 @@ import type {
 	APIGatewayProxyEventV2WithRequestContext,
 	APIGatewayProxyResultV2,
 } from 'aws-lambda'
-import { Tracer } from '@aws-lambda-powertools/tracer'
 
 const tracer = new Tracer({})
 const sqs = tracer.captureAWSv3Client(new SQSClient({}))

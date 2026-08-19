@@ -56,7 +56,7 @@ export class WebhookReceiver {
 		await this.sqs.send(
 			new DeleteMessageCommand({
 				QueueUrl: this.queueUrl,
-				ReceiptHandle: ReceiptHandle as string,
+				ReceiptHandle,
 			}),
 		)
 
@@ -107,7 +107,7 @@ export class WebhookReceiver {
 					this.sqs.send(
 						new DeleteMessageCommand({
 							QueueUrl: this.queueUrl,
-							ReceiptHandle: ReceiptHandle as string,
+							ReceiptHandle,
 						}),
 					),
 				),

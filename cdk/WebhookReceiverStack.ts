@@ -1,3 +1,4 @@
+import type { PackedLambda } from '@bifravst/aws-cdk-lambda-helpers'
 import type { App } from 'aws-cdk-lib'
 import {
 	CfnOutput,
@@ -9,7 +10,6 @@ import {
 	aws_sqs as SQS,
 	Stack,
 } from 'aws-cdk-lib'
-import type { PackedLambda } from './packLambda.js'
 
 /**
  * This is the CloudFormation stack which contains the webhook receiver resources.
@@ -36,7 +36,7 @@ export class WebhookReceiverStack extends Stack {
 		// This lambda will publish all requests made to the API Gateway in the queue
 		const lambda = new Lambda.Function(this, 'Lambda', {
 			description: 'Publishes webhook requests into SQS',
-			code: Lambda.Code.fromAsset(lambdaSource.lambdaZipFile),
+			code: Lambda.Code.fromAsset(lambdaSource.zipFilePath),
 			layers: [
 				Lambda.LayerVersion.fromLayerVersionArn(
 					this,
