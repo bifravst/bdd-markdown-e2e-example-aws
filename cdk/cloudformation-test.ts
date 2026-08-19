@@ -1,6 +1,6 @@
 import { packLambdaFromPath } from '@bifravst/aws-cdk-lambda-helpers'
-import { stackBaseName } from './stackBaseName.js'
-import { TestApp } from './TestApp.js'
+import { stackBaseName } from './stackBaseName.ts'
+import { TestApp } from './TestApp.ts'
 
 new TestApp({
 	stackName: `${stackBaseName()}-test`,

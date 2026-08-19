@@ -2,9 +2,9 @@ import { CloudFormationClient } from '@aws-sdk/client-cloudformation'
 import { runFolder } from '@bifravst/bdd-markdown'
 import { stackOutput } from '@bifravst/cloudformation-helpers'
 import * as path from 'path'
-import { stackBaseName } from '../cdk/stackBaseName.js'
-import { steps as restSteps } from './steps/rest-steps.js'
-import { steps as webHookSteps } from './steps/webhook-steps.js'
+import { stackBaseName } from '../cdk/stackBaseName.ts'
+import { steps as restSteps } from './steps/rest-steps.ts'
+import { steps as webHookSteps } from './steps/webhook-steps.ts'
 
 /**
  * This file configures the BDD Feature runner

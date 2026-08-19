@@ -2,8 +2,8 @@ import type { StepRunner } from '@bifravst/bdd-markdown'
 import { codeBlockOrThrow, regExpMatchedStep } from '@bifravst/bdd-markdown'
 import { Type } from '@sinclair/typebox'
 import assert from 'assert/strict'
-import type { World } from '../run-features.js'
-import { WebhookReceiver } from './webhook-receiver.js'
+import type { World } from '../run-features.ts'
+import { WebhookReceiver } from './webhook-receiver.ts'
 
 export const steps = (): StepRunner<World>[] => {
 	let r: WebhookReceiver

@@ -1,7 +1,7 @@
 import type { PackedLambda } from '@bifravst/aws-cdk-lambda-helpers'
 import type { AppProps } from 'aws-cdk-lib'
 import * as CDK from 'aws-cdk-lib'
-import { WebhookReceiverStack } from './WebhookReceiverStack.js'
+import { WebhookReceiverStack } from './WebhookReceiverStack.ts'
 
 export class TestApp extends CDK.App {
 	public constructor({

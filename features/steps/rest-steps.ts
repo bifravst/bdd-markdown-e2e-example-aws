@@ -4,7 +4,7 @@ import { Type } from '@sinclair/typebox'
 import assert from 'assert/strict'
 import type { Response } from 'node-fetch'
 import fetch from 'node-fetch'
-import type { World } from '../run-features.js'
+import type { World } from '../run-features.ts'
 
 export const steps = (): StepRunner<World>[] => {
 	let baseUrl: URL | undefined = undefined

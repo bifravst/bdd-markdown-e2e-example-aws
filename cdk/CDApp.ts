@@ -1,5 +1,5 @@
 import * as CDK from 'aws-cdk-lib'
-import { CDStack } from './CDStack.js'
+import { CDStack } from './CDStack.ts'
 
 export class CDApp extends CDK.App {
 	public constructor({
