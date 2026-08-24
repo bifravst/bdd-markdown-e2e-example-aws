@@ -28,9 +28,9 @@
   "homepage": "https://github.com/bifravst/bdd-markdown-e2e-example-aws#readme",
   "devDependencies": {
     "@aws-lambda-powertools/tracer": "2.35.0",
-    "@aws-sdk/client-cloudformation": "3.1114.0",
-    "@aws-sdk/client-sqs": "3.1114.0",
-    "@aws-sdk/client-xray": "3.1114.0",
+    "@aws-sdk/client-cloudformation": "3.1115.0",
+    "@aws-sdk/client-sqs": "3.1115.0",
+    "@aws-sdk/client-xray": "3.1115.0",
     "@bifravst/aws-cdk-lambda-helpers": "5.0.5",
     "@bifravst/bdd-markdown": "9.0.2",
     "@bifravst/cloudformation-helpers": "10.0.1",
