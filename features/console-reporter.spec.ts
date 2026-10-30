@@ -8,11 +8,7 @@ void describe('console-reporter', () => {
 	void it('should exit with code 0 if the previous process runs successfully', async () => {
 		const consoleReporter = spawn(
 			'node',
-			[
-				'--experimental-transform-types',
-				'--no-warnings',
-				join('features', 'console-reporter.ts'),
-			],
+			['--no-warnings', join('features', 'console-reporter.ts')],
 			{
 				cwd: process.cwd(),
 			},
@@ -41,11 +37,7 @@ void describe('console-reporter', () => {
 	void it('should exit with code 1 if the previous process is failed', async () => {
 		const consoleReporter = spawn(
 			'node',
-			[
-				'--experimental-transform-types',
-				'--no-warnings',
-				join('features', 'console-reporter.ts'),
-			],
+			['--no-warnings', join('features', 'console-reporter.ts')],
 			{
 				cwd: process.cwd(),
 			},

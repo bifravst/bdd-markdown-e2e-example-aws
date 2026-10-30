@@ -4,8 +4,8 @@
   "description": "Example use of @bifravst/bdd-markdown",
   "type": "module",
   "scripts": {
-    "test": "$(set -o pipefail && node --experimental-transform-types --no-warnings features/run-features.ts | node --experimental-transform-types --no-warnings features/console-reporter.ts)",
-    "test:unit": "node --experimental-transform-types --no-warnings --test ./features/*.spec.ts",
+    "test": "$(set -o pipefail && node --no-warnings features/run-features.ts | node --no-warnings features/console-reporter.ts)",
+    "test:unit": "node --no-warnings --test ./features/*.spec.ts",
     "prepare": "husky && case \"$npm_command\" in install|ci) check-node-version --package ;; esac"
   },
   "repository": {
@@ -32,10 +32,10 @@
     "@aws-sdk/client-sqs": "3.1157.0",
     "@aws-sdk/client-xray": "3.1157.0",
     "@bifravst/aws-cdk-lambda-helpers": "5.1.6",
-    "@bifravst/bdd-markdown": "9.0.4",
+    "@bifravst/bdd-markdown": "9.0.5",
     "@bifravst/cloudformation-helpers": "10.0.2",
-    "@bifravst/eslint-config-typescript": "8.0.15",
-    "@bifravst/prettier-config": "2.0.4",
+    "@bifravst/eslint-config-typescript": "8.0.16",
+    "@bifravst/prettier-config": "2.0.5",
     "@commitlint/config-conventional": "21.2.4",
     "@sinclair/typebox": "0.34.52",
     "@types/aws-lambda": "8.10.164",
@@ -81,7 +81,7 @@
     ]
   },
   "engines": {
-    "node": ">=24.19.0 <25",
+    "node": ">=26.12.1 <27",
     "npm": ">=12.0.2 <13"
   },
   "prettier": "@bifravst/prettier-config"
