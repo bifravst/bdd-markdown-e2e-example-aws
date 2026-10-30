@@ -40,7 +40,7 @@ manual step done through the AWS CLI:
 
 Then set up the continuous deployment:
 
-    node --experimental-transform-types --no-warnings cdk/cloudformation-cd.ts deploy
+    node --no-warnings cdk/cloudformation-cd.ts deploy
 
 ## Architecture decision records (ADRs)
 

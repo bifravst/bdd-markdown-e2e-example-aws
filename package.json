@@ -4,8 +4,8 @@
   "description": "Example use of @bifravst/bdd-markdown",
   "type": "module",
   "scripts": {
-    "test": "$(set -o pipefail && node --experimental-transform-types --no-warnings features/run-features.ts | node --experimental-transform-types --no-warnings features/console-reporter.ts)",
-    "test:unit": "node --experimental-transform-types --no-warnings --test ./features/*.spec.ts",
+    "test": "$(set -o pipefail && node --no-warnings features/run-features.ts | node --no-warnings features/console-reporter.ts)",
+    "test:unit": "node --no-warnings --test ./features/*.spec.ts",
     "prepare": "husky && case \"$npm_command\" in install|ci) check-node-version --package ;; esac"
   },
   "repository": {
