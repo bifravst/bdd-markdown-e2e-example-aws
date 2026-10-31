@@ -31,7 +31,7 @@
     "@aws-sdk/client-cloudformation": "3.1158.0",
     "@aws-sdk/client-sqs": "3.1158.0",
     "@aws-sdk/client-xray": "3.1158.0",
-    "@bifravst/aws-cdk-lambda-helpers": "5.1.6",
+    "@bifravst/aws-cdk-lambda-helpers": "6.0.0",
     "@bifravst/bdd-markdown": "9.0.5",
     "@bifravst/cloudformation-helpers": "10.0.2",
     "@bifravst/eslint-config-typescript": "8.0.16",
